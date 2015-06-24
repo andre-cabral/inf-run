@@ -8,8 +8,6 @@ public class Movement : MonoBehaviour {
 	public float maxSpeed = 10f;
 	public float jumpForce = 500f;
 	private bool grounded = false;
-	public Transform groundedA;
-	public Transform groundedB;
 	public float currentSpeed;
 	private Transform objectTransform;
 	private bool attacking = false;
